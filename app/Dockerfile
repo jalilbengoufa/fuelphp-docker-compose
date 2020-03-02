@@ -6,7 +6,7 @@ ENV DOCKER true
 
 RUN php -v
 RUN apt-get update
-RUN apt-get install -y mysql-client vim net-tools telnet curl 
+RUN apt-get install -y mysql-client vim net-tools telnet curl libcurl3 libcurl3-dev
 RUN docker-php-ext-install mysql
 RUN docker-php-ext-install mysqli
 RUN docker-php-ext-install pdo pdo_mysql

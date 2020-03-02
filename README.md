@@ -2,6 +2,7 @@
 
 ### mysql config example for site 
 
+- access site and url inside api with `fuel_nginx:3001` and `fuel_nginx:3002`
 ```
 return array(
         'active' => 'local',
